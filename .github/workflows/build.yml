@@ -38,7 +38,7 @@ jobs:
 
       - name: Archive executable and images
         run: |
-          Compress-Archive -Path .\ZZZ-.exe, .\image -DestinationPath ZZZ-registration-helper.zip
+          Compress-Archive -Path .\ZZZ-registration-helper.exe, .\image -DestinationPath ZZZ-registration-helper.zip
 
       - name: Create release
         id: create_release
