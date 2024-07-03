@@ -15,7 +15,7 @@ def get_current_window():
     s_2 = (y_2 - y_1) / 1.45 + y_1
 
     global screenshot_position
-    screenshot_position = (x_1, s_1, x_2 - x_1, s_2 - s_1)
+    screenshot_position = (int(x_1), int(s_1), int(x_2 - x_1), int(s_2 - s_1))
 
     print(x_2 - x_1, y_2 - y_1)
 
